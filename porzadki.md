@@ -10,34 +10,34 @@ Nie róbcie tego raczej sami, będziemy to ustawiać w poniedziałek o 19:00 14s
 ### Porządek u siebie na kompie:
 
 #### PORZĄDKI U SIEBIE: Jak się włacza terminal/powershell?
-Windows: kliknij ścieżkę w folderze xD
+Windows: kliknij ścieżkę w folderze o nazwie xD
 Linux: shift+ctrl+x
 Mac: ?
 
 #### PORZĄDEK U SIEBIE: folder xD w przeglądarce.
-1. Jak nie masz, to stwórz w swojej przeglądarce folder xD
+1. Jak nie masz, to stwórz w swojej przeglądarce/menedżerze plików folder o nazwie xD
 2. Wyciągnij ten folder gdzieś na wierzch
 3. Dodaj do niego potrzebne linki: github swój, ZPXD, może gmail.
 4. Jak pojawi się coś ważnego co do zajęć, wrzuć tutaj.
 
-#### PORZĄDEK U SIEBIE: foler xD na kompie
-1. Katalog xD tworzymy kto nie zrobił. Na wierzchu gdzieś.  I wrzuć tam klucze do serwera jak masz jakieś (AWS ma, Home miał hasło tylko. Co do przenoszenia kluczy to chyba, że masz je już w .ssh, to ogarniasz i pozdrowienia. Ale reszta instrukcji będzie jednak zakładała, że narazie masz te klucze w folderze xD. Może w przyszłości zamienimy to na odrazu .ssh :) ale narazie xD.
-2. Wejdź do folderu xD
+#### PORZĄDEK U SIEBIE: folder o nazwie xD (na kompie)
+1. Katalog xD tworzymy kto nie zrobił. Na wierzchu gdzieś.  I wrzuć tam klucze do serwera jak masz jakieś (AWS ma, Home miał hasło tylko. Co do przenoszenia kluczy to chyba, że masz je już w .ssh, to ogarniasz i pozdrowienia. Ale reszta instrukcji będzie jednak zakładała, że na razie masz te klucze w folderze xD. Może w przyszłości zamienimy to na od razu .ssh :) ale na razie xD.
+2. Wejdź do folderu o nazwie xD
 3. Powershell/terminal:
-Windows: kliknij ścieżkę w folderze xD
+Windows: kliknij ścieżkę w folderze o nazwie xD
 Linux: shift+ctrl+x
 
 6. pwd
 ```
 pwd
 ```
-Powinieneś być w folderze xD. Chodźmy dalej.
+Powinieneś być w folderze o nazwie xD. Chodźmy dalej.
 
 ### Porządek na serwie:
 
 #### AWS:
 
-Wchodzimy na serwer przez powershell/windows wpisując.
+Wchodzimy na serwer przez powershell/windows wpisując:
 
 ```
 ssh -i nazwaklucza.pem ubuntu@1.1.1.1 
